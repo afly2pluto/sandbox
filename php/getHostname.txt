@@ -1,0 +1,4 @@
+<?php
+    $hostname = shell_exec('hostname');
+    echo "Hostname: " . $hostname;
+?>
